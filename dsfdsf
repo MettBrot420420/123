@@ -1,1 +1,33 @@
-Start-Process calc.exe
+# Word COM-Objekt starten
+$Word = New-Object -ComObject Word.Application
+$Word.Visible = $true  # true = man sieht Word
+
+# Neues Dokument erstellen
+$Document = $Word.Documents.Add()
+
+# Generischen Job Application Text mit Fake-Infos
+$Paragraph = $Document.Paragraphs.Add()
+$Paragraph.Range.Text = @"
+Hi,
+
+My name is Alex Parker and I am reaching out to express my interest in a potential role at your company. 
+I have always been passionate about innovative solutions and enjoy working in dynamic environments.
+
+With experience in project coordination, data analysis, and creative problem solving, I believe I can bring value to any team. 
+I am highly motivated, adaptable, and committed to delivering quality work consistently.
+
+I would love the opportunity to discuss how my background and skills could contribute to your organization. 
+Thank you for taking the time to review my application.
+
+Best regards,
+Alex Parker
+"@
+$Paragraph.Range.InsertParagraphAfter()
+
+# Optional: Dokument speichern
+$FilePath = "C:\Users\Atze\Desktop\FakeJobApplication.docx"
+$Document.SaveAs([ref] $FilePath)
+
+# Word offen lassen oder schließen (optional)
+# $Word.Quit()
+# [System.Runtime.Interopservices.Marshal]::ReleaseComObject($Word) | Out-Null
