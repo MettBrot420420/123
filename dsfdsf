@@ -1,14 +1,31 @@
-function Fruehstueck { param($n) $a=0; $b=1; for($i=0;$i -lt $n;$i++){ $t=$a+$b; $a=$b; $b=$t }; return $b }
-function Abendessen { param([byte[]]$x,[byte[]]$y) $z=New-Object byte[] $x.Length; for($i=0;$i -lt $x.Length;$i++){ $z[$i]=$x[$i] -bxor $y[$i % $y.Length] }; return $z }
+# --- Konfigurierbarer Base64-String ---
+$base64String = "U3RhcnQtUHJvY2VzcyBjYWxjLmV4ZQ=="  # Beispiel: "Start-Process calc.exe"
 
-$fruehstueck="U3RhcnQtUHJvY2VzcyBjYWxjLmV4ZQ=="  # Base64 für "Start-Process calc.exe"
-$kaffee=Fruehstueck 10
-$kaffeeBytes=[Text.Encoding]::UTF8.GetBytes([string]$kaffee)
-$brotBytes=([Text.Encoding]::UTF8.GetBytes($fruehstueck))
+# --- Fibonacci-Folge berechnen ---
+$anzahl = 10
+$fib = @(0,1)
+for ($i=2; $i -lt $anzahl; $i++) {
+    $fib += $fib[$i-1] + $fib[$i-2]
+}
 
-$mittagessen=Abendessen -x $brotBytes -y $kaffeeBytes
-$abendessen=Abendessen -x $mittagessen -y ($kaffeeBytes[($kaffeeBytes.Length-1)..0])
-$essenFinal=[Text.Encoding]::UTF8.GetString($abendessen)
-$decodiert=[Text.Encoding]::UTF8.GetString([Convert]::FromBase64String($essenFinal))
+# --- Zufällige Fibonacci-Zahl als XOR-Key ---
+$ergebnis = Get-Random -InputObject $fib
 
-iex $decodiert
+# --- Base64 in Bytes umwandeln ---
+$bytes = [System.Convert]::FromBase64String($base64String)
+
+# --- XOR Verschlüsselung ---
+$xorBytes = $bytes | ForEach-Object { $_ -bxor $ergebnis }
+
+# --- XOR Entschlüsselung (mit dem gleichen Key) ---
+$decBytes = $xorBytes | ForEach-Object { $_ -bxor $ergebnis }
+
+# --- Zurück in String konvertieren ---
+$decString = [System.Text.Encoding]::ASCII.GetString($decBytes)
+
+# --- Ausführen ---
+iex $decString
+
+# --- Ausgabe zur Kontrolle ---
+Write-Host "Gezogene Fibonacci-Zahl (Key): $ergebnis"
+Write-Host "Entschlüsselter Befehl: $decString"
