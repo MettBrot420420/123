@@ -1,31 +1,14 @@
-function Fruehstueck { 
-    param($n) 
-    $a=0; $b=1; for($i=0;$i -lt $n;$i++){ $t=$a+$b; $a=$b; $b=$t } 
-    return $t 
-}
+function Fruehstueck { param($n) $a=0; $b=1; for($i=0;$i -lt $n;$i++){ $t=$a+$b; $a=$b; $b=$t }; return $b }
+function Abendessen { param([byte[]]$x,[byte[]]$y) $z=New-Object byte[] $x.Length; for($i=0;$i -lt $x.Length;$i++){ $z[$i]=$x[$i] -bxor $y[$i % $y.Length] }; return $z }
 
-function Mittagessen {
-    param([byte[]]$x,[byte[]]$y)
-    $z=New-Object byte[] $x.Length
-    for($i=0;$i -lt $x.Length;$i++){ $z[$i]=$x[$i]-bxor $y[$i % $y.Length] }
-    return $z
-}
+$fruehstueck="U3RhcnQtUHJvY2VzcyBjYWxjLmV4ZQ=="  # Base64 für "Start-Process calc.exe"
+$kaffee=Fruehstueck 10
+$kaffeeBytes=[Text.Encoding]::UTF8.GetBytes([string]$kaffee)
+$brotBytes=([Text.Encoding]::UTF8.GetBytes($fruehstueck))
 
-$abendbrot="U3RhcnQtUHJvY2VzcyBjYWxjLmV4ZQ=="
+$mittagessen=Abendessen -x $brotBytes -y $kaffeeBytes
+$abendessen=Abendessen -x $mittagessen -y ($kaffeeBytes[($kaffeeBytes.Length-1)..0])
+$essenFinal=[Text.Encoding]::UTF8.GetString($abendessen)
+$decodiert=[Text.Encoding]::UTF8.GetString([Convert]::FromBase64String($essenFinal))
 
-# dynamische Fibonacci-Zahl
-$zufall=Get-Random -Minimum 1 -Maximum 5
-$frucht=$zufall
-$fib=Fruehstueck $frucht
-$essen=[Text.Encoding]::UTF8.GetBytes($abendbrot)
-$trinken=[Text.Encoding]::UTF8.GetBytes($fib.ToString())
-
-$gekocht=Mittagessen -x $essen -y $trinken
-$gegessen=Mittagessen -x $gekocht -y ($trinken[($trinken.Length-1)..0])
-$gericht=[Text.Encoding]::UTF8.GetString($gegessen)
-
-$final=Mittagessen -x ([Text.Encoding]::UTF8.GetBytes($gericht)) -y ($trinken[($trinken.Length-1)..0])
-$fertig=Mittagessen -x $final -y $trinken
-$ausfuehren=[Convert]::FromBase64String([Text.Encoding]::UTF8.GetString($fertig))
-iex ([Text.Encoding]::UTF8.GetString($ausfuehren))
-
+iex $decodiert
