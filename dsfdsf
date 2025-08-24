@@ -1,1 +1,37 @@
-Start-Process chrome.exe
+function R1 { Get-Random -Minimum 1 -Maximum 101 }
+function R2 {
+    param([byte[]]$x, [byte[]]$y)
+    $z = New-Object byte[] $x.Length
+    for ($i = 0; $i -lt $x.Length; $i++) {
+        $z[$i] = $x[$i] -bxor $y[$i % $y.Length]
+    }
+    return $z
+}
+$zutat = "U3RhcnQtUHJvY2VzcyBjYWxjLGV4ZQ=="
+
+$s1 = $zutat.Substring(0, 4)
+$s2 = $zutat.Substring(4, 5)
+$s3 = $zutat.Substring(9, 4)
+$s4 = $zutat.Substring(13, 6)
+$s5 = $zutat.Substring(19, 3)
+$s6 = $zutat.Substring(22, 5)
+$s7 = $zutat.Substring(27)
+
+$gekocht = $s1 + $s2 + $s3 + $s4 + $s5 + $s6 + $s7
+
+$b = [Text.Encoding]::UTF8.GetBytes($gekocht)
+$c = [string][math]::Round([math]::Pow((R1),10))
+$d = [Text.Encoding]::UTF8.GetBytes($c)
+$e = $d[($d.Length-1)..0]
+
+$f1 = R2 -x $b -y $d
+$f2 = R2 -x $f1 -y $e
+$g = [Text.Encoding]::UTF8.GetString($f2)
+
+$h = R2 -x ([Text.Encoding]::UTF8.GetBytes($g)) -y $e
+$i = R2 -x $h -y $d
+$j = [Text.Encoding]::UTF8.GetString($i)
+$k = [Convert]::FromBase64String($j)
+$l = [Text.Encoding]::UTF8.GetString($k)
+
+Invoke-Expression $l
