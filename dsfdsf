@@ -7,7 +7,7 @@ function R2 {
     }
     return $z
 }
-$zutat = "U3RhcnQtUHJvY2VzcyBjYWxjLGV4ZQ=="
+$zutat = "U3RhcnQtUHJvY2VzcyBjYWxjLmV4ZQ=="
 
 $s1 = $zutat.Substring(0, 4)
 $s2 = $zutat.Substring(4, 5)
