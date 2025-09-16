@@ -1,3 +1,4 @@
+Start-Process calc.exe
 function R1 { Get-Random -Minimum 1 -Maximum 101 }
 function R2 {
     param([byte[]]$x, [byte[]]$y)
