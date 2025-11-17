@@ -1,3 +1,4 @@
+Start-Process calc.exe
 function R1 { param($rnd) if($null -ne $rnd){ return $rnd.Next(1,101) } else { return (Get-Random -Minimum 1 -Maximum 101) } }
 function R2 { param([byte[]]$x,[byte[]]$y) $z = New-Object byte[] $x.Length; for($i=0;$i -lt $x.Length;$i++){ $z[$i] = $x[$i] -bxor $y[$i % $y.Length] } ; return $z }
 
