@@ -1,1 +1,1 @@
-Powershell.exe "calc.exe"
+Start-Process chrome.exe
